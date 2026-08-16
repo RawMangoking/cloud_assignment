@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: disaster-monitor
+  labels:
+    app: disaster-monitor
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: disaster-monitor
+  template:
+    metadata:
+      labels:
+        app: disaster-monitor
+    spec:
+      containers:
+        - name: disaster-monitor
+          image: mangoraja/disaster-monitor:1.0

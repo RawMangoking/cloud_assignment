@@ -1,0 +1,2 @@
+timestamp,rainfall_mm,river_discharge_m3s,air_quality_index,temperature_c,humidity_pct,wind_speed_kmph
+2026-08-16T09:45:48.108190+00:00,0.0,145.22,161,33.9,62,30.6
